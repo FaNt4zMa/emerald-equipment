@@ -83,6 +83,6 @@ This datapack was inspired by and builds upon:
 ## 📝 License & Usage
 
 - *Licensed under MIT.*
--  *Free to use in modpacks and videos with credit.*
+- *Free to use in modpacks and videos with credit.*
 
 ---

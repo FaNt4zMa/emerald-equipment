@@ -1,6 +1,7 @@
 # 💚 Emerald Equipment ⛏️
 
 Expand your Minecraft arsenal with a complete emerald equipment tier! This datapack and resource pack combo adds craftable emerald tools, weapons, and armor that fill the gap between iron and diamond gear.
+![Fantaz and his horse wearing emerald gear](https://cdn.modrinth.com/data/cached_images/d1fd0e91213f3c277ecb9fa9e3463b7032ad59e1.png)
 
 ---
 

@@ -40,7 +40,11 @@ jobs:
           files: '["Emerald-Equipment-DP-${{ github.event.release.tag_name }}.zip", "Emerald-Equipment-RP-${{ github.event.release.tag_name }}.zip"]'
           primary-file: "Emerald-Equipment-DP-${{ github.event.release.tag_name }}.zip"
           version: ${{ github.event.release.tag_name }}
-          changelog: ${{ github.event.release.body }}
+          changelog: |
+            ${{ github.event.release.body }}
+            
+            ---
+            *This release was automatically generated via GitHub Actions*
           loaders: '["datapack"]'
           game-versions: |-
             1.21.5
@@ -169,6 +173,11 @@ jobs:
           name: ${{ github.event.release.name }}
           files: '["${{ env.MODRINTH_SLUG }}-${{ github.event.release.tag_name }}.jar"]'
           version: ${{ github.event.release.tag_name }}+mod
+          changelog: |
+            ${{ github.event.release.body }}
+            
+            ---
+            *This release was automatically generated via GitHub Actions*
           loaders: '["fabric", "forge", "neoforge", "quilt"]'
           game-versions: |-
             1.21.5

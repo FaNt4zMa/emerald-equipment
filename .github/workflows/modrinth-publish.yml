@@ -37,9 +37,7 @@ jobs:
           token: ${{ secrets.MODRINTH_TOKEN }}
           project: ${{ env.MODRINTH_ID }}
           name: ${{ github.event.release.name }}
-          files: |-
-            "Emerald-Equipment-DP-${{ github.event.release.tag_name }}.zip"
-            "Emerald-Equipment-RP-${{ github.event.release.tag_name }}.zip"
+          files: '["Emerald-Equipment-DP-${{ github.event.release.tag_name }}.zip", "Emerald-Equipment-RP-${{ github.event.release.tag_name }}.zip"]'
           primary-file: "Emerald-Equipment-DP-${{ github.event.release.tag_name }}.zip"
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}

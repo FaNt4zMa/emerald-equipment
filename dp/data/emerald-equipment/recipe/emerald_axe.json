@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "BB",
-    "BS",
+    "EE",
+    "ES",
     " S"
   ],
   "key": {
-    "B": [
+    "E": [
       "minecraft:emerald"
     ],
     "S": [

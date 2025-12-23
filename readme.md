@@ -71,6 +71,13 @@ All armor pieces support vanilla armor trims!
 
 ---
 
+## 💜 More Equipment Tiers
+
+**Also check out:** 
+- [Amethyst Equipment](https://modrinth.com/datapack/fantazs-amethyst-equipment) - A companion pack adding amethyst gear to complete your mid-tier options!
+
+---
+
 ## 🙏 Credits & Inspiration
 
 This datapack was inspired by and builds upon:

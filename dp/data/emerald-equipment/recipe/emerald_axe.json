@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "BB",
+    "BS",
+    " S"
+  ],
+  "key": {
+    "B": [
+      "minecraft:emerald"
+    ],
+    "S": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_axe",
+    "components": {
+      "minecraft:max_damage": 960,
+      "minecraft:item_model": "emerald-equipment:emerald_axe",
+      "minecraft:item_name": {
+        "translate": "item.emerald-equipment.emerald_axe"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:emerald"
+      },
+      "minecraft:enchantable": {
+        "value": 12
+      }
+    },
+    "count": 1
+  }
+}

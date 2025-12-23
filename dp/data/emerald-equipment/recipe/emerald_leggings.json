@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EEE",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": [
+      "minecraft:emerald"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "components": {
+      "minecraft:max_damage": 450,
+      "minecraft:item_model": "emerald-equipment:emerald_leggings",
+      "minecraft:item_name": {
+        "translate": "item.emerald-equipment.emerald_leggings"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:emerald"
+      },
+      "minecraft:enchantable": {
+        "value": 12
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "legs"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor_toughness",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "legs"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "legs",
+        "equip_sound": "minecraft:item.armor.equip_diamond",
+        "asset_id": "emerald-equipment:emerald"
+      }
+    },
+    "count": 1
+  }
+}

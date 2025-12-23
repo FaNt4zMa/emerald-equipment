@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E E",
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": [
+      "minecraft:emerald"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_horse_armor",
+    "components": {
+      "minecraft:item_model": "emerald-equipment:emerald_horse_armor",
+      "minecraft:item_name": {
+        "translate": "item.emerald-equipment.emerald_horse_armor"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 8,
+          "operation": "add_value",
+          "slot": "body"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor_toughness",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "body"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "body",
+        "asset_id": "emerald-equipment:emerald",
+        "allowed_entities": "#minecraft:can_wear_horse_armor",
+        "equip_on_interact": true
+      }
+    },
+    "count": 1
+  }
+}

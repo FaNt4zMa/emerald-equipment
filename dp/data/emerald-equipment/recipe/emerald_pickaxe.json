@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EEE",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "E": [
+      "minecraft:emerald"
+    ],
+    "S": [
+      "minecraft:stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+      "minecraft:max_damage": 960,
+      "minecraft:item_model": "emerald-equipment:emerald_pickaxe",
+      "minecraft:item_name": {
+        "translate": "item.emerald-equipment.emerald_pickaxe"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:emerald"
+      },
+      "minecraft:enchantable": {
+        "value": 12
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:attack_damage",
+          "amount": 4.5,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": " 4.5 Attack Damage",
+              "color": "dark_green"
+            }
+          }
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:attack_speed",
+          "amount": 1.2,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "override",
+            "value": {
+              "text": " 1.2 Attack Speed",
+              "color": "dark_green"
+            }
+          }
+        }
+      ]
+    },
+    "count": 1
+  }
+}

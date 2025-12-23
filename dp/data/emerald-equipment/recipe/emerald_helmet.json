@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "EEE",
+    "E E"
+  ],
+  "key": {
+    "E": [
+      "minecraft:emerald"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+      "minecraft:max_damage": 330,
+      "minecraft:item_model": "emerald-equipment:emerald_helmet",
+      "minecraft:item_name": {
+        "translate": "item.emerald-equipment.emerald_helmet"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:emerald"
+      },
+      "minecraft:enchantable": {
+        "value": 12
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor_toughness",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "head",
+        "equip_sound": "minecraft:item.armor.equip_diamond",
+        "asset_id": "emerald-equipment:emerald"
+      }
+    },
+    "count": 1
+  }
+}

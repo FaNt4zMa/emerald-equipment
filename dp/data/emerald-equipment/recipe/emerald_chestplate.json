@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": [
+      "minecraft:emerald"
+    ]
+  },
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {
+      "minecraft:max_damage": 480,
+      "minecraft:item_model": "emerald-equipment:emerald_chestplate",
+      "minecraft:item_name": {
+        "translate": "item.emerald-equipment.emerald_chestplate"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:emerald"
+      },
+      "minecraft:enchantable": {
+        "value": 12
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 7,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:armor_toughness",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ],
+      "minecraft:equippable": {
+        "slot": "chest",
+        "equip_sound": "minecraft:item.armor.equip_diamond",
+        "asset_id": "emerald-equipment:emerald"
+      }
+    },
+    "count": 1
+  }
+}

@@ -73,7 +73,7 @@ jobs:
           mkdir mod-temp
           
           # Extract resourcepack (goes into assets/)
-          unzip "Emerald-Equipment-RP-${VERSION}.zip" -d mod-temp
+          unzip "Emerald-Equipment-RP-${{ github.event.release.tag_name }}.zip" -d mod-temp
 
           # Extract datapack (goes into data/)
           unzip -o "Emerald-Equipment-DP-${VERSION}.zip" -d mod-temp

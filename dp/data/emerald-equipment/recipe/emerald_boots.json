@@ -11,7 +11,7 @@
     ]
   },
   "result": {
-    "id": "minecraft:diamond_boots",
+    "id": "minecraft:iron_boots",
     "components": {
       "minecraft:max_damage": 390,
       "minecraft:item_model": "emerald-equipment:emerald_boots",

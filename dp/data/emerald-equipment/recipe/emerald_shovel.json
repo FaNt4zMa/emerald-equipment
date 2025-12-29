@@ -15,7 +15,7 @@
     ]
   },
   "result": {
-    "id": "minecraft:diamond_shovel",
+    "id": "minecraft:iron_shovel",
     "components": {
       "minecraft:max_damage": 960,
       "minecraft:item_model": "emerald-equipment:emerald_shovel",

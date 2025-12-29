@@ -1,7 +1,7 @@
 # 💚 Emerald Equipment ⛏️
 
 Expand your Minecraft arsenal with a complete emerald equipment tier! This datapack and resource pack combo adds craftable emerald tools, weapons, and armor that fill the gap between iron and diamond gear.
-![Fantaz and his horse wearing emerald gear](https://cdn.modrinth.com/data/cached_images/d1fd0e91213f3c277ecb9fa9e3463b7032ad59e1.png)
+![Fantaz and his nautilus wearing emerald gear](https://cdn.modrinth.com/data/T3vt10wr/images/13bd509d5ad2f69254007a5aeb93dd8d165c0d60.png)
 
 ---
 
@@ -14,9 +14,9 @@ Craft a full set of emerald equipment using emeralds you've gathered from mining
 <summary><b>Available Items</b></summary>
 
 - **Tools**: Pickaxe, Axe, Shovel, Hoe
-- **Weapons**: Sword
+- **Weapons**: Spear, Sword
 - **Armor**: Helmet, Chestplate, Leggings, Boots
-- **Horse Armor**: Emerald Horse Armor
+- **Mounts Armor**: Nautilus Armor, Horse Armor
 
 *All items feature custom textures and full armor trim support!*
 
@@ -30,10 +30,11 @@ Emerald equipment sits comfortably between iron and diamond, offering a meaningf
 
 | Stat | Value |
 |------|-------|
-| **Tools/Weapon Durability** | 960 *(~4x iron, 40% less than diamond)* |
+| **Tools/Weapon Durability** | 960 |
 | **Armor Protection** | 19 Armor, 1 Armor Toughness |
-| **Horse Armor** | 8 Armor *(between iron's 5 and diamond's 11)* |
-| **Enchantability** | 12 *(better than diamond's 10!)* |
+| **Horse Armor** | 8 Armor, 1 Armor Toughness |
+| **Nautilus Armor** | 7 Armor, 1 Armor Toughness |
+| **Enchantability** | 12 |
 
 ---
 
@@ -74,7 +75,7 @@ All armor pieces support vanilla armor trims!
 ## 💜 More Equipment Tiers
 
 **Also check out:** 
-- [Amethyst Equipment](https://modrinth.com/datapack/fantazs-amethyst-equipment) - A companion pack adding amethyst gear to complete your mid-tier options!
+- **[Amethyst Equipment](https://modrinth.com/datapack/fantazs-amethyst-equipment)** - A companion pack adding amethyst gear to complete your mid-tier options!
 
 ---
 

@@ -12,7 +12,7 @@
     ]
   },
   "result": {
-    "id": "minecraft:diamond_leggings",
+    "id": "minecraft:iron_leggings",
     "components": {
       "minecraft:max_damage": 450,
       "minecraft:item_model": "emerald-equipment:emerald_leggings",

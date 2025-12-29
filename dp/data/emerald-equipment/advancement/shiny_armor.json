@@ -1,0 +1,79 @@
+{
+  "display": {
+    "description": "Green armor saves lives",
+    "icon": {
+      "components": {
+        "minecraft:item_model": "emerald-equipment:emerald_chestplate"
+      },
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": "Cover Me with... Emeralds?",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "emerald-equipment:acquire_emerald",
+  "criteria": {
+    "emerald_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_boots",
+            "components": {
+              "minecraft:item_model": "emerald-equipment:emerald_boots"
+            }
+          }
+        ]
+      }
+    },
+    "emerald_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chestplate",
+            "components": {
+              "minecraft:item_model": "emerald-equipment:emerald_chestplate"
+            }
+          }
+        ]
+      }
+    },
+    "emerald_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_helmet",
+            "components": {
+              "minecraft:item_model": "emerald-equipment:emerald_helmet"
+            }
+          }
+        ]
+      }
+    },
+    "emerald_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_leggings",
+            "components": {
+              "minecraft:item_model": "emerald-equipment:emerald_leggings"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "emerald_helmet",
+      "emerald_chestplate",
+      "emerald_leggings",
+      "emerald_boots"
+    ]
+  ]
+}
